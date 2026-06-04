@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+.nav-bar{
+    padding-top: 25px;
+    display: flex;
+    justify-content: 
+    space-between;
+    height: 50px;
+    width: auto;
+    align-items: center;
+}
+.logo{
+    margin-left: 200px;
+}
+
+.links{
+    margin-right: 250px;
+    display: flex;
+    gap: 50px;
+}
+
+.links a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+}
+.mainn{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.line h3{
+    margin-top: 2px;
+}
+span{
+    color: gray;
+}
+.free{
+    background-color: rgb(92, 185, 244);
+    color: white;
+    border-radius: 3px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+/* .photo{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    display: flex;
+    justify-content: center
+    ;
+} 

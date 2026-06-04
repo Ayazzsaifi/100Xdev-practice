@@ -1,0 +1,75 @@
+body{
+    background-color: #0e0e0e;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    color:white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+span{
+    color: gray;
+    padding-left: 5px;
+}
+.top-link{
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+
+}
+/* Main  */
+
+main{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 80vh;
+    align-items: center;
+}
+
+div h2{
+    color: white;
+    font-size:50px;
+}
+
+
+.cir-border{
+    background-color: rgb(51, 49, 49);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.mac{
+    padding: 10px;
+    background-color: rgb(113, 158, 236);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.agreement{
+    margin-top: 10px;
+}
+
+.left{
+    margin-left: 100px;
+}
+
+.right{
+    margin-right: 100px;
+}

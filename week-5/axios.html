@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.17.0/dist/axios.min.js"></script>
+</head>
+<body>
+    linkedIn
+
+    <div id="post"></div>
+    <script>
+    async function getRecentPost(){
+        const response=await axios.get("http://localhost:3000/")
+        document.getElementById("post").innerHTML=response.data.title;
+    }
+
+    getRecentPost();
+</script>
+</body>
+</html>
